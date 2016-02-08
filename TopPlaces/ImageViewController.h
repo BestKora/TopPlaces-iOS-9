@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ImageViewController : UIViewController
-@property (nonatomic, strong) NSURL *imageURL;
-@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *spinner;
 
+// Модель для этого MVC ... URL изображения image для показа на экране
+@property (nonatomic, strong) NSURL *imageURL;
 @end

@@ -10,7 +10,7 @@
 @interface ImageViewController () <UIScrollViewDelegate>
 @property (nonatomic,strong) UIImageView *imageView;
 @property (nonatomic,strong) UIImage *image;
-
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *spinner;
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 //@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *spinner;
 
